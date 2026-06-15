@@ -1,0 +1,307 @@
+{
+  "1027": {
+    "clinicName": "Vitality Medical Centre",
+    "tagline": "Expert Healthcare You Can Trust",
+    "heroTitle": "Your Health,",
+    "heroTitleHighlight": "Our Priority",
+    "heroDescription": "Experience compassionate, world-class medical care with our team of experienced physicians and state-of-the-art facilities. We are dedicated to your well-being and recovery.",
+    "established": "1998",
+    "yearsExperience": "25+",
+    "patientsTreated": "50k+",
+    "expertDoctors": "15+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "2,400+",
+    "aboutDescription": "Founded in 1998, Vitality Medical Centre has grown from a small family practice into one of India's most trusted multi-speciality healthcare providers. Our commitment to excellence and patient-centered care has earned us the loyalty of over 50,000 patients.",
+    "missionStatement": "To provide accessible, high-quality healthcare that treats every patient with dignity, compassion, and the most advanced medical expertise available.",
+    "doctors": [
+      {
+        "name": "Dr. Prakash Mehta",
+        "title": "Chief Medical Officer",
+        "qualification": "MD, AIIMS New Delhi",
+        "experience": "20+ years",
+        "specialization": "Internal Medicine",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      },
+      {
+        "name": "Dr. Rajesh Kulkarni",
+        "title": "Senior Cardiologist",
+        "qualification": "DM Cardiology, KEM Mumbai",
+        "experience": "15+ years",
+        "specialization": "Cardiology"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98765 43210",
+      "emergencyPhone": "+91 98765 43211",
+      "appointmentPhoneRaw": "+919876543210",
+      "emergencyPhoneRaw": "+919876543211",
+      "email": "info@vitalitymedical.com",
+      "supportEmail": "support@vitalitymedical.com",
+      "appointmentEmail": "appointments@vitalitymedical.com",
+      "whatsapp": "919876543210"
+    },
+    "address": {
+      "line1": "2nd Floor, Vitality House, MG Road",
+      "line2": "Pune, Maharashtra - 411001, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=MG%20Road%2C%20Pune%2C%20Maharashtra%20411001&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=MG+Road+Pune+Maharashtra+411001"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "8:00 AM - 8:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Emergency Only",
+      "summary": "Mon - Sat: 8:00 AM - 8:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/VitalityMedicalCentrePune",
+      "twitter": "https://twitter.com/VitalityMedPune",
+      "instagram": "https://www.instagram.com/vitalitymedicalcentre",
+      "linkedin": "https://www.linkedin.com/company/vitality-medical-centre-pune",
+      "youtube": "https://www.youtube.com/@VitalityMedicalCentre"
+    },
+    "services": [
+      {
+        "icon": "fas fa-user-doctor",
+        "title": "General Consultation",
+        "description": "Comprehensive health assessments, diagnosis, and treatment plans for common illnesses and chronic conditions by our experienced physicians."
+      },
+      {
+        "icon": "fas fa-tooth",
+        "title": "Dental Care",
+        "description": "Complete dental services including cleanings, fillings, extractions, cosmetic dentistry, and orthodontic consultations for all ages."
+      },
+      {
+        "icon": "fas fa-person-walking",
+        "title": "Physiotherapy",
+        "description": "Expert rehabilitation services for sports injuries, post-surgical recovery, chronic pain management, and mobility improvement."
+      },
+      {
+        "icon": "fas fa-heart-pulse",
+        "title": "Cardiology",
+        "description": "Advanced cardiac screenings, ECG, stress tests, and heart health management by our board-certified cardiologists."
+      },
+      {
+        "icon": "fas fa-baby",
+        "title": "Pediatrics",
+        "description": "Specialized care for infants, children, and adolescents including vaccinations, growth monitoring, and developmental assessments."
+      },
+      {
+        "icon": "fas fa-microscope",
+        "title": "Diagnostic Lab",
+        "description": "State-of-the-art laboratory services with rapid turnaround times for blood tests, imaging, pathology, and health screenings."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Vitality Medical Centre - Trusted multi-speciality healthcare in India with experienced doctors, modern facilities, and compassionate care. Book your appointment today.",
+      "metaKeywords": "doctor clinic India, medical centre, healthcare, general consultation, dental care, physiotherapy, appointment booking, multi-speciality clinic"
+    }
+  },
+
+  "2048": {
+    "clinicName": "LifeCare Hospital",
+    "tagline": "Healing With Heart",
+    "heroTitle": "Advanced Care,",
+    "heroTitleHighlight": "Closer to Home",
+    "heroDescription": "LifeCare Hospital brings world-class medical expertise to your neighbourhood. From routine check-ups to complex procedures, we are with you every step of the way.",
+    "established": "2005",
+    "yearsExperience": "19+",
+    "patientsTreated": "30k+",
+    "expertDoctors": "22+",
+    "satisfactionRate": "96%",
+    "rating": "4.8",
+    "reviewCount": "1,800+",
+    "aboutDescription": "Established in 2005 in the heart of Mumbai, LifeCare Hospital has become a beacon of modern healthcare with a team of over 22 specialists across multiple departments. We blend cutting-edge technology with a warm, human touch.",
+    "missionStatement": "To deliver evidence-based, patient-first healthcare that empowers individuals and strengthens communities.",
+    "doctors": [
+      {
+        "name": "Dr. Suresh Patel",
+        "title": "Medical Director",
+        "qualification": "MS, Seth GS Medical College Mumbai",
+        "experience": "18+ years",
+        "specialization": "General Surgery",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      },
+      {
+        "name": "Dr. Meera Joshi",
+        "title": "Head of Gynaecology",
+        "qualification": "MD, Grant Medical College Mumbai",
+        "experience": "12+ years",
+        "specialization": "Gynaecology & Obstetrics"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 91234 56789",
+      "emergencyPhone": "+91 91234 56790",
+      "appointmentPhoneRaw": "+919123456789",
+      "emergencyPhoneRaw": "+919123456790",
+      "email": "info@lifecarehospital.in",
+      "supportEmail": "support@lifecarehospital.in",
+      "appointmentEmail": "appointments@lifecarehospital.in",
+      "whatsapp": "919123456789"
+    },
+    "address": {
+      "line1": "3rd Floor, LifeCare Tower, Bandra West",
+      "line2": "Mumbai, Maharashtra - 400050, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Bandra+West+Mumbai+Maharashtra+400050&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Bandra+West+Mumbai+Maharashtra+400050"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "7:00 AM - 9:00 PM",
+      "saturday": "Sunday",
+      "saturdayHours": "9:00 AM - 2:00 PM",
+      "sunday": "Emergency",
+      "sundayHours": "24/7 Available",
+      "summary": "Mon - Sat: 7:00 AM - 9:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/LifeCareHospitalMumbai",
+      "twitter": "https://twitter.com/LifeCareHospMum",
+      "instagram": "https://www.instagram.com/lifecarehospitalmumbai",
+      "linkedin": "https://www.linkedin.com/company/lifecare-hospital-mumbai",
+      "youtube": "https://www.youtube.com/@LifeCareHospitalMumbai"
+    },
+    "services": [
+      {
+        "icon": "fas fa-user-doctor",
+        "title": "General Surgery",
+        "description": "Minimally invasive and open surgical procedures for a wide range of conditions, performed by our experienced surgical team."
+      },
+      {
+        "icon": "fas fa-venus",
+        "title": "Gynaecology & Obstetrics",
+        "description": "Complete women's health services from prenatal care and normal delivery to complex gynaecological procedures."
+      },
+      {
+        "icon": "fas fa-brain",
+        "title": "Neurology",
+        "description": "Diagnosis and treatment of neurological disorders including stroke, epilepsy, migraines, and Parkinson's disease."
+      },
+      {
+        "icon": "fas fa-bone",
+        "title": "Orthopaedics",
+        "description": "Expert care for bone, joint, and muscle conditions including joint replacements, fractures, and sports injuries."
+      },
+      {
+        "icon": "fas fa-eye",
+        "title": "Ophthalmology",
+        "description": "Comprehensive eye care including cataract surgery, LASIK, glaucoma management, and pediatric eye services."
+      },
+      {
+        "icon": "fas fa-flask",
+        "title": "Pathology Lab",
+        "description": "NABL-accredited diagnostic laboratory offering a full range of tests with same-day reports for most investigations."
+      }
+    ],
+    "seo": {
+      "metaDescription": "LifeCare Hospital Mumbai - Advanced multi-speciality hospital in Bandra West with expert doctors and 24/7 emergency care. Book your appointment today.",
+      "metaKeywords": "hospital Mumbai, Bandra hospital, gynaecology, neurology, orthopaedics, surgery, diagnostics, healthcare Mumbai"
+    }
+  },
+
+  "3091": {
+    "clinicName": "WellSpring Clinic",
+    "tagline": "Where Wellness Begins",
+    "heroTitle": "Better Health",
+    "heroTitleHighlight": "Starts Here",
+    "heroDescription": "WellSpring Clinic offers holistic, patient-centred primary care and specialist services in a calm, welcoming environment. Because good health is the foundation of everything.",
+    "established": "2012",
+    "yearsExperience": "12+",
+    "patientsTreated": "18k+",
+    "expertDoctors": "9+",
+    "satisfactionRate": "99%",
+    "rating": "5.0",
+    "reviewCount": "900+",
+    "aboutDescription": "WellSpring Clinic was founded in 2012 in Bengaluru with a simple idea: healthcare should feel human. Our small but highly skilled team of specialists provides the kind of personalised attention that larger hospitals often can't offer.",
+    "missionStatement": "To make exceptional primary and specialist care accessible, affordable, and genuinely compassionate for every patient who walks through our doors.",
+    "doctors": [
+      {
+        "name": "Dr. Kavitha Reddy",
+        "title": "Founder & Chief Physician",
+        "qualification": "MBBS, MS — Bangalore Medical College",
+        "experience": "14+ years",
+        "specialization": "Family Medicine & Preventive Care",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&crop=face"
+      },
+      {
+        "name": "Dr. Anil Shetty",
+        "title": "Senior Dermatologist",
+        "qualification": "MD Dermatology, Manipal University",
+        "experience": "10+ years",
+        "specialization": "Dermatology & Cosmetology"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 80123 45678",
+      "emergencyPhone": "+91 80123 45679",
+      "appointmentPhoneRaw": "+918012345678",
+      "emergencyPhoneRaw": "+918012345679",
+      "email": "hello@wellspringclinic.in",
+      "supportEmail": "care@wellspringclinic.in",
+      "appointmentEmail": "book@wellspringclinic.in",
+      "whatsapp": "918012345678"
+    },
+    "address": {
+      "line1": "No. 14, 1st Cross, Koramangala 5th Block",
+      "line2": "Bengaluru, Karnataka - 560095, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Koramangala+5th+Block+Bengaluru+Karnataka+560095&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Koramangala+5th+Block+Bengaluru+Karnataka+560095"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "9:00 AM - 7:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Fri: 9:00 AM - 7:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/WellSpringClinicBengaluru",
+      "twitter": "https://twitter.com/WellSpringClinic",
+      "instagram": "https://www.instagram.com/wellspringclinic",
+      "linkedin": "https://www.linkedin.com/company/wellspring-clinic-bengaluru",
+      "youtube": "https://www.youtube.com/@WellSpringClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-house-medical",
+        "title": "Family Medicine",
+        "description": "Comprehensive primary care for all ages — from newborns to seniors — with continuity of care and long-term health management."
+      },
+      {
+        "icon": "fas fa-spa",
+        "title": "Dermatology & Cosmetology",
+        "description": "Skin, hair, and nail treatments including acne management, chemical peels, laser therapy, and anti-ageing procedures."
+      },
+      {
+        "icon": "fas fa-dumbbell",
+        "title": "Lifestyle & Nutrition",
+        "description": "Personalised nutrition counselling, weight management programmes, and lifestyle modification plans led by certified experts."
+      },
+      {
+        "icon": "fas fa-brain",
+        "title": "Mental Wellness",
+        "description": "Confidential counselling, stress management, anxiety and depression support in a safe, judgement-free space."
+      },
+      {
+        "icon": "fas fa-shield-heart",
+        "title": "Preventive Health",
+        "description": "Annual health screenings, vaccination programmes, and early-detection packages tailored to your age and risk profile."
+      },
+      {
+        "icon": "fas fa-vials",
+        "title": "In-Clinic Lab",
+        "description": "Quick, reliable diagnostic tests with same-day results for routine blood work, urinalysis, and health checkups."
+      }
+    ],
+    "seo": {
+      "metaDescription": "WellSpring Clinic Bengaluru — Holistic family medicine, dermatology, mental wellness, and preventive care in Koramangala. Book your appointment today.",
+      "metaKeywords": "clinic Bengaluru, Koramangala doctor, family medicine, dermatology, mental wellness, preventive healthcare Bangalore"
+    }
+  }
+}
