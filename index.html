@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,6 +103,8 @@
             align-items: center;
             gap: 12px;
             text-decoration: none;
+            flex-shrink: 0;
+            max-width: 45%;
         }
 
         .logo-icon {
@@ -115,19 +118,22 @@
             color: white;
             font-size: 1.5rem;
             box-shadow: var(--shadow);
+            flex-shrink: 0;
         }
 
         .logo-text {
             display: flex;
             flex-direction: column;
+            min-width: 0;
         }
 
         .logo-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
+            font-size: clamp(1.1rem, 2vw, 1.5rem);
             font-weight: 700;
             color: var(--primary);
-            line-height: 1;
+            line-height: 1.2;
+            white-space: normal;
         }
 
         .logo-subtitle {
@@ -136,13 +142,17 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-top: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .nav-links {
             display: flex;
-            gap: 2.5rem;
+            gap: clamp(1rem, 2vw, 2.5rem);
             list-style: none;
             align-items: center;
+            min-width: 0;
         }
 
         .nav-links a {
@@ -152,6 +162,7 @@
             font-size: 0.95rem;
             position: relative;
             transition: var(--transition);
+            white-space: nowrap;
         }
 
         .nav-links a::after {
@@ -183,6 +194,8 @@
             font-weight: 600;
             box-shadow: var(--shadow);
             transition: var(--transition);
+            flex-shrink: 0;
+            white-space: nowrap;
         }
 
         .nav-cta::after {
@@ -202,6 +215,7 @@
             font-size: 1.5rem;
             color: var(--primary);
             cursor: pointer;
+            flex-shrink: 0;
         }
 
         /* Hero Section */
@@ -1326,10 +1340,23 @@
         }
 
         @media (max-width: 768px) {
+            .navbar {
+                height: auto;
+            }
+            
+            .nav-container {
+                padding: 0 1rem;
+                height: 70px;
+            }
+
+            .logo {
+                max-width: 75%;
+            }
+
             .nav-links {
                 display: none;
                 position: absolute;
-                top: 80px;
+                top: 70px;
                 left: 0;
                 right: 0;
                 background: white;
@@ -1378,10 +1405,6 @@
                 display: none;
             }
 
-            /* Doctor name + rating cards: instead of hiding them,
-               drop the absolute positioning and float animation so
-               they stack neatly under the photo without overlapping
-               or spilling off the edge of the screen. */
             .floating-card {
                 position: static;
                 width: 100%;
@@ -1807,7 +1830,7 @@
             <div class="gallery-grid">
                 <div class="gallery-item fade-in">
                     <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=500&h=375&fit=crop" alt="Reception and waiting area">
-                    <div class="gallery-caption"><i class="fas fa-door-open"></i> Reception &amp; Waiting Area</div>
+                    <div class="gallery-caption"><i class="fas fa-door-open"></i> Reception & Waiting Area</div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=375&fit=crop" alt="Doctor consultation room">
@@ -1823,7 +1846,7 @@
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500&h=375&fit=crop" alt="Clinic corridor">
-                    <div class="gallery-caption"><i class="fas fa-hospital"></i> Clean &amp; Hygienic Corridors</div>
+                    <div class="gallery-caption"><i class="fas fa-hospital"></i> Clean & Hygienic Corridors</div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500&h=375&fit=crop" alt="Medical team at Vitality Medical Centre">
@@ -2158,7 +2181,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p id="footerCopyright">&copy; 2026 Vitality Medical Centre. All rights reserved.</p>
+                <p id="footerCopyright">© 2026 Vitality Medical Centre. All rights reserved.</p>
                 <div class="footer-bottom-links">
                     <a href="privacy-policy.html">Privacy Policy</a>
                     <a href="terms-of-service.html">Terms of Service</a>
@@ -2184,7 +2207,7 @@
            display: flex;
            align-items: center;
            justify-content: center;
-           box-shadow: 0 4px 16px rgba(37,211,102,0.45);
+           box-shadow: 0 4px 166px rgba(37,211,102,0.45);
            transition: transform 0.2s, box-shadow 0.2s;
            text-decoration: none;
        "
@@ -2238,7 +2261,7 @@
 
             document.querySelectorAll('.nav-links a').forEach(link => {
                 link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
+                if (link.getAttribute('href') === `#\${current}`) {
                     link.classList.add('active');
                 }
             });
@@ -2292,10 +2315,10 @@
         function escapeHtml(str) {
             if (str === undefined || str === null) return '';
             return String(str)
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/"/g, '&quot;');
+                .replace(/&/g, '&')
+                .replace(/</g, '<')
+                .replace(/>/g, '>')
+                .replace(/"/g, '"');
         }
 
         function splitClinicName(name) {
@@ -2431,7 +2454,7 @@
                     .join('');
             }
 
-            setHtml('footerCopyright', `&copy; ${new Date().getFullYear()} ${escapeHtml(clinicName)}. All rights reserved.`);
+            setHtml('footerCopyright', `© ${new Date().getFullYear()} ${escapeHtml(clinicName)}. All rights reserved.`);
 
             // --- WhatsApp button ---
             const whatsappBtn = document.getElementById('whatsappBtn');
