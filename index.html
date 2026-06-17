@@ -119,20 +119,23 @@
             box-shadow: var(--shadow);
         }
 
-        .logo-text {
+        /* Safe, isolated logo wrapping */
+        nav .logo-text, 
+        header .logo-text {
             display: flex;
             flex-direction: column;
-            max-width: 200px; /* Limits the width so long names are forced to wrap */
+            max-width: 180px !important; /* Strict boundary */
         }
-
-        .logo-title {
+        
+        nav .logo-title, 
+        header .logo-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem !important; /* Slightly smaller to fit gracefully */
             font-weight: 700;
             color: var(--primary);
-            line-height: 1.2; /* Increased slightly so two lines of text don't overlap */
-            white-space: normal; /* Allows the text to break into a second line */
-            word-wrap: break-word; /* Ensures long words break safely if needed */
+            line-height: 1.2 !important;
+            white-space: normal !important; /* Explicitly scoped only to the title */
+            word-break: keep-all; /* Prevents splitting a single word in half */
         }
 
         .logo-subtitle {
