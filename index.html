@@ -122,6 +122,7 @@
         .logo-text {
             display: flex;
             flex-direction: column;
+            max-width: 200px; /* Limits the width so long names are forced to wrap */
         }
 
         .logo-title {
@@ -129,7 +130,9 @@
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--primary);
-            line-height: 1;
+            line-height: 1.2; /* Increased slightly so two lines of text don't overlap */
+            white-space: normal; /* Allows the text to break into a second line */
+            word-wrap: break-word; /* Ensures long words break safely if needed */
         }
 
         .logo-subtitle {
