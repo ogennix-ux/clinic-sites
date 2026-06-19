@@ -143,11 +143,11 @@
         }
         .hero-img-wrap img {
             width: 100%; height: 100%; object-fit: cover; object-position: top center;
-            opacity: 0.72;
+            opacity: 0.92;
         }
         .hero-img-overlay {
             position: absolute; inset: 0;
-            background: linear-gradient(to bottom, rgba(10,53,96,0.1) 0%, rgba(10,53,96,0.75) 100%);
+            background: linear-gradient(to bottom, rgba(10,53,96,0.05) 0%, rgba(10,53,96,0.45) 100%);
         }
         .hero-img-badge {
             position: absolute; bottom: 14px; left: 14px;
@@ -260,12 +260,15 @@
             display: flex; gap: 12px;
             overflow-x: auto; padding: 0 16px 20px;
             scrollbar-width: none; -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
         }
         .services-scroll::-webkit-scrollbar { display: none; }
         .service-card {
-            min-width: 168px; background: white; border-radius: var(--radius);
+            min-width: calc(100vw - 48px); max-width: calc(100vw - 48px);
+            background: white; border-radius: var(--radius);
             padding: 18px 14px 14px; border: 1px solid var(--border); flex-shrink: 0;
             display: flex; flex-direction: column;
+            scroll-snap-align: start;
         }
         .service-icon {
             width: 46px; height: 46px; background: var(--primary-light);
@@ -373,12 +376,15 @@
             display: flex; gap: 12px; overflow-x: auto;
             padding: 0 16px 24px; scrollbar-width: none;
             -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
         }
         .testimonials-scroll::-webkit-scrollbar { display: none; }
         .testimonial-card {
-            min-width: 272px; background: rgba(255,255,255,0.1);
+            min-width: calc(100vw - 48px); max-width: calc(100vw - 48px);
+            background: rgba(255,255,255,0.1);
             backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.18);
             border-radius: var(--radius); padding: 18px 16px; flex-shrink: 0;
+            scroll-snap-align: start;
         }
         .testimonial-stars { color: #fbbf24; font-size: 0.75rem; margin-bottom: 10px; }
         .testimonial-text {
